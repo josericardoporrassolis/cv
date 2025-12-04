@@ -1,0 +1,226 @@
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <title>José Ricardo Porras Solís</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://avatars.githubusercontent.com/u/104660392?s=400&u=5c659e2cfaecead1c4b9bbc43453f1e5ad70ee59&v=4" rel="shortcut icon" type="image/x-icon">
+	  <link rel="stylesheet" href="css/styles.min.css">
+	  <script src="js/file.js"></script>
+	  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0K97NENV4J"></script>
+	  <script>
+		 window.dataLayer = window.dataLayer || [];
+		 function gtag(){dataLayer.push(arguments);}
+		 gtag('js', new Date());
+		 gtag('config', 'G-0K97NENV4J');
+	  </script>
+   </head>
+   <body class="dark-mode">
+
+	<div class="desktop-buttons">
+	  <button class="toggle-dark" onclick="toggleTheme()">
+  <span id="theme-text" data-en="☀️ Light" data-es="☀️ Claro">☀️ Claro</span>
+</button>
+	  <button class="toggle-lang" onclick="toggleLanguage()">🌐 English</button>
+	  <button class="print-button" onclick="printByLanguage()"><span data-en="🖨️ Print" data-es="🖨️ Imprimir">🖨️ Imprimir</span></button>
+	</div>
+
+	<nav class="navbar">
+	  <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+	  <div class="navbar-links" id="navbarLinks">
+		<a href="#summary"><span data-en="Summary" data-es="Resumen">Resumen</span></a>
+		<a href="#experience"><span data-en="Experience" data-es="Experiencia">Experiencia</span></a>
+		<a href="#education"><span data-en="Education" data-es="Educacion">Educación</span></a>
+		<a href="#certifications"><span data-en="Certifications" data-es="Certificaciones">Certificaciones</span></a>
+		<a href="#technical-skills"><span data-en="Technical Skills" data-es="Habilidades tecnicas">Habilidades técnicas</span></a>
+		<a href="#soft-skills"><span data-en="Soft Skills" data-es="Habilidades blandas">Habilidades blandas</span></a>
+		<a href="#contact"><span data-en="Contact" data-es="Contacto">Contacto</span></a>
+		<div class="mobile-buttons">
+		  <button class="toggle-dark" onclick="document.body.classList.toggle('dark-mode')"><span data-en="🌓 Dark" data-es="🌓 Oscuro">🌓 Oscuro</span></button>
+		  <button class="toggle-lang" onclick="toggleLanguage()">🌐 English</button>
+		  <button class="print-button" onclick="printByLanguage()"><span data-en="🖨️ Print" data-es="🖨️ Imprimir">🖨️ Imprimir</span></button>
+		</div>
+	  </div>
+	</nav>
+	
+	<div class="carousel-container">
+	  <div class="carousel-track">
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" alt="Bitbucket" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" alt="SonarQube" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="SQL Server" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-plain.svg" alt="IntelliJ" />
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse" />
+	  </div>
+	</div>
+  
+  <div class="resume">
+    <div class="sidebar">
+      <h1>Jose Ricardo Porras Solis</h1>
+      <p data-en="Systems Engineer" data-es="Ingeniero en Sistemas">Ingeniero en Sistemas</p>
+
+      <div class="section contact" id="contact">
+        <h2 data-en="Contact" data-es="Contacto">Contacto</h2>
+        <span class="whatsapp-tooltip">📞 (506) 6016-6542</span>
+        <p>📧 <a href="mailto:jrporras252@gmail.com">jrporras252@gmail.com</a></p>
+      </div>
+
+      <div class="section" id="education">
+        <h2 data-en="Education" data-es="Educación">Educación</h2>
+        <p>Universidad Tecnologica Costarricense</p>
+        <p>Systems Engineer, 2018</p>
+      </div>
+
+      <div class="section" id="certifications">
+        <h2 data-en="Certifications" data-es="Certificaciones">Certificaciones</h2>
+        <ul>
+          <li>
+    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=E09F5D03643FD490CEF72ED4F3764E34F0E682F60DF7282B3ED78B62CD9AFB14" target="_blank" rel="noopener noreferrer">
+        Oracle Certified Associate, Java SE Programmer
+    </a>
+</li>
+<li>
+    <a href="https://www.scrum-institute.org/certifications/Scrum-Institute.Org-SMAC75392cc305-42046984321437.pdf" target="_blank" rel="noopener noreferrer">
+        Scrum Master - International Scrum Institute
+    </a>
+</li>
+        </ul>
+      </div>
+
+      <div class="section" id="technical-skills">
+        <h2 data-en="Technical Skills" data-es="Habilidades Técnicas">Habilidades Técnicas</h2>
+        <ul>
+          <li>Java, C#, NodeJS</li>
+          <li>Microservices, Cloud</li>
+          <li>JSF, JPA, PL/SQL, T-SQL</li>
+          <li>Angular, Architecture</li>
+        </ul>
+      </div>
+
+      <div class="section"id="soft-skills">
+        <h2 data-en="Soft Skills" data-es="Habilidades Blandas">Habilidades Blandas</h2>
+        <ul>
+		  <li data-en="Leadership and mentoring" data-es="Liderazgo y mentoría">Liderazgo y mentoría</li>
+		  <li data-en="Teamwork" data-es="Trabajo en equipo">Trabajo en equipo</li>
+		  <li data-en="Problem-solving" data-es="Resolución de problemas">Resolución de problemas</li>
+		  <li data-en="Analytical thinking" data-es="Pensamiento analítico">Pensamiento analítico</li>
+		  <li data-en="Effective communication" data-es="Comunicación efectiva">Comunicación efectiva</li>
+		  <li data-en="Adaptability" data-es="Adaptabilidad">Adaptabilidad</li>
+		  <li data-en="Continuous learning" data-es="Aprendizaje continuo">Aprendizaje continuo</li>
+		</ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="section" id="summary">
+        <h2 data-en="Professional Summary" data-es="Resumen Profesional">Resumen Profesional</h2>
+        <p data-en="Systems Engineer with over 7 years of experience in multiple sectors such as finance, health, and telecommunications. Specialized in backend development, microservices, and cloud technologies. Proven ability to lead teams, deliver complex solutions, and ensure high-quality software following best practices."
+           data-es="Ingeniero en Sistemas con más de 7 años de experiencia en sectores como finanzas, salud y telecomunicaciones. Especializado en desarrollo backend, microservicios y tecnologías en la nube. Capacidad comprobada para liderar equipos, entregar soluciones complejas y garantizar software de alta calidad siguiendo buenas prácticas.">
+          Ingeniero en Sistemas con más de 7 años de experiencia en sectores como finanzas, salud y telecomunicaciones. Especializado en desarrollo backend, microservicios y tecnologías en la nube. Capacidad comprobada para liderar equipos, entregar soluciones complejas y garantizar software de alta calidad siguiendo buenas prácticas.
+        </p>
+      </div>
+
+      <div class="section" id="experience">
+        <h2 data-en="Experience" data-es="Experiencia">Experiencia</h2>
+
+		<div>
+          <p class="job-title">Consultor Java Programmer</p>
+          <p class="job-period">Scotiabank CR - Caribbean / DaviBank | 2025–2025</p>
+          <ul>
+            <li data-en="Technical leader / Migrate" data-es="Líder técnico / Migraciones">Líder técnico / Migraciones</li>
+			<li data-en="Tokenization, Credits, Network Edge"
+				data-es="Tokenización, Credito, Internet Edge">
+			  Tokenización, Credito, Internet Edge
+			</li>
+			<li data-en="Technologies: Azure, openSSL, C#, Java 17, microservices, GitHub Copilot, Akamai, Tomcat, SpringBoot, Kafka, Oracle, SonarQube, Fortify, WebInspect, Checkmarx, SQL Server"
+				data-es="Tecnologías: Azure, openSSL, C#, Java 17, microservicios, GitHub Copilot, Akamai, Tomcat, SpringBoot, Kafka, Oracle, SonarQube, Fortify, WebInspect, Checkmarx, SQL Server">
+			  Tecnologías: Azure, openSSL, C#, Java 17, microservicios, GitHub Copilot, Akamai, Tomcat, SpringBoot, Kafka, Oracle, SonarQube, Fortify, WebInspect, Checkmarx, SQL Server
+			</li>
+          </ul>
+        </div>
+
+		<div>
+          <p class="job-title">Java Programmer</p>
+          <p class="job-period">GBSYS | 2023–2025</p>
+          <ul>
+            <li data-en="Systems: SIES (CCSS)" data-es="Sistemas: SIES (CCSS)">
+              Sistemas: SIES (CCSS)
+            </li>
+			<li data-en="Technologies: JSF, WebLogic, JavaScript, Java 8, DevOps Azure"
+				data-es="Tecnologías: JSF, WebLogic, JavaScript, Java 8, DevOps Azure">
+			  Tecnologías: JSF, WebLogic, JavaScript, Java 8, DevOps Azure
+			</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="job-title">Senior Java Programmer</p>
+          <p class="job-period">Scotiabank | 2021–2024</p>
+          <ul>
+            <li data-en="Technical leader" data-es="Líder técnico">Líder técnico</li>
+			<li data-en="Tokenization, ACH transfers, MPH payment for Panama services"
+				data-es="Tokenización, transferencias ACH, pagos MPH para servicios en Panamá">
+			  Tokenización, transferencias ACH, pagos MPH para servicios en Panamá
+			</li>
+			<li data-en="Technologies: Azure, C#, Java 17 and 8, microservices, GitHub Copilot, Tomcat, SpringBoot, Kafka, Oracle, SonarQube, Fortify, WebInspect, Checkmarx, SQL Server"
+				data-es="Tecnologías: Azure, C#, Java 17 y 8, microservicios, GitHub Copilot, Tomcat, SpringBoot, Kafka, Oracle, SonarQube, Fortify, WebInspect, Checkmarx, SQL Server">
+			  Tecnologías: Azure, C#, Java 17 y 8, microservicios, GitHub Copilot, Tomcat, SpringBoot, Oracle, SonarQube, Fortify, WebInspect, Checkmarx, SQL Server
+			</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="job-title">Senior Consultant</p>
+          <p class="job-period">Novacomp | 2018–2021</p>
+          <ul>
+            <li data-en="Customer management system, work order control, project calculations and costs, card transactions and payments, electronic invoice, migrate JSF to Angular"
+				data-es="Sistema de gestión de clientes, control de órdenes de trabajo, cálculos y costos de proyectos, transacciones y pagos con tarjeta, factura electrónica, migración de JSF a Angular">
+			  Sistema de gestión de clientes, control de órdenes de trabajo, cálculos y costos de proyectos, transacciones y pagos con tarjeta, factura electrónica, migración de JSF a Angular
+			</li>
+
+			<li data-en="Technologies: Azure, Java 8, 17 and 21, Weblogic, Tomcat, SpringBoot, JSF, Kafka, WAS 7–9, Oracle, SQL Server, Angular 7, SonarQube, Fortify, WebInspect, Checkmarx"
+				data-es="Tecnologías: Azure, Java 8, 17 y 21, Weblogic, Tomcat, SpringBoot, JSF, Kafka, WAS 7–9, Oracle, SQL Server, Angular 7, SonarQube, Fortify, WebInspect, Checkmarx">
+			  Tecnologías: Azure, Java 8, 17 y 21, Weblogic, Tomcat, SpringBoot, JSF, Kafka, WAS 7–9, Oracle, SQL Server, Angular 7, SonarQube, Fortify, WebInspect, Checkmarx
+			</li>
+
+          </ul>
+        </div>
+
+        <div>
+          <p class="job-title">Mid Java Programmer</p>
+          <p class="job-period">Cablevision de Costa Rica | 2015–2018</p>
+          <ul>
+            <li data-en="Fastrack, real-time pay" data-es="Fastrack, pagos en tiempo real">
+			  Fastrack, pagos en tiempo real
+			</li>
+			<li data-en="Technologies: Java 7 and 8, JSF, SQL Server, Oracle"
+				data-es="Tecnologías: Java 7 y 8, JSF, SQL Server, Oracle">
+			  Tecnologías: Java 7 y 8, JSF, SQL Server, Oracle
+			</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
